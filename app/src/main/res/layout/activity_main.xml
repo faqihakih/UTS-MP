@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20dp"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/dash"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
+        android:gravity="center"
         android:padding="10dp"
+        android:background="@drawable/head"
         android:text="Dashboard"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,13 +26,15 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="60dp"
         android:layout_marginEnd="20dp"
+        android:layout_marginBottom="600dp"
         android:padding="10dp"
         android:text="Username"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/dash" />
+        app:layout_constraintTop_toBottomOf="@+id/dash" />
 
     <GridLayout
         android:id="@+id/gridLayout"
@@ -63,7 +66,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="#03A9F4"
+                android:background="#13C6B5"
                 android:gravity="center"
                 android:orientation="vertical"
                 android:padding="16dp">
@@ -98,7 +101,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="#03A9F4"
+                android:background="#13C6B5"
                 android:gravity="center"
                 android:orientation="vertical"
                 android:padding="16dp">
@@ -133,7 +136,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="#03A9F4"
+                android:background="#13C6B5"
                 android:gravity="center"
                 android:orientation="vertical"
                 android:padding="16dp">
@@ -167,7 +170,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="#03A9F4"
+                android:background="#13C6B5"
                 android:gravity="center"
                 android:orientation="vertical"
                 android:padding="16dp">
